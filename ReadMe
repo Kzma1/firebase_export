@@ -1,0 +1,2 @@
+npx json2csv -i export.json -f <export.ts実行時にconsoleに出る文字列> -o export.csv 
+ts-node export.ts <取得するcollection名>

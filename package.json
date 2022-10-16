@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "firebase-admin": "^11.1.0",
+    "json2csv": "^5.0.7"
+  }
+}
