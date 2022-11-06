@@ -1,6 +1,16 @@
 {
+  "name": "export-firestore-csv",
+  "version": "0.0.1",
+  "description": "export firestore document to csv.",
+  "main": "index.js",
+  "scripts": {
+    "json": "npx ts-node index.ts customers",
+    "csv": "npx json2csv -i export.json -f"
+  },
   "dependencies": {
     "firebase-admin": "^11.1.0",
-    "json2csv": "^5.0.7"
-  }
+    "json2csv": "^5.0.7",
+    "ts-node": "^10.9.1"
+  },
+  "license": "MIT"
 }
